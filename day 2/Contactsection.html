@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <title>Fashion</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li class="navbar-logo">Wahid Webpage</li>
+                <li class="navbar-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </li>
+                <li class="navbar-links"><a href="Homesection.html">Home</a></li>
+                <li class="navbar-links"><a href="Blogsection.html">Blogsection</a></li>
+                <li class="navbar-links"><a href="Contactsection.html">Contact</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="contact">
+        <div class="container">
+            <h3>IF you need more information please do not hesitate contact us.</h3>
+            <form action="action_page.php">
+                <br>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <br>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <br>
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+
+                <br>
+                <label for="Email">Email</label>
+                <textarea id="Email" name="Email" placeholder="Your Email address please.."
+                    style="height:20px"></textarea>
+                <br>
+
+                <br>
+                <label for="userMessage">message:</label>
+                <input type="text" id="userMessage" name="userMessage">
+                <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+                <label for="submitButton">Submit Form:</label>
+                <input type="submit" id="submitButton" value="Submit">
+
+            </form>
+        </div>
+    </section>
+    <footer>
+        <ul>
+            <!-- li*5>a -->
+            <li><a href="https://twitter.com/?lang=en-ca"><i class="fa-brands fa-github"></i>Twitter</a></li>
+            <li><a href="https://ca.linkedin.com/?original_referer=https%3A%2F%2Fwww.bing.com%2F"><i
+                        class="fa-brands fa-linkedin-in"></i> LinkedIn</a></li>
+            <li><a href="https://www.instagram.com/"><i class="fa-brands fa-stack-overflow"></i>Instagram</a></li>
+
+            <li>Copyright &copy; 2023 Wahid Rahimi. All rights reserved.</li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
